@@ -1,0 +1,55 @@
+main {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+div.card {
+    display: flex;
+    width: 1110px;
+    height: 446px;
+    border-radius: 8px;
+    background-color: var(--dark-desaturated-blue);
+}
+
+div.container {
+    padding: 70px
+}
+
+div.text {
+    & span {
+        color: var(--soft-violet);
+    }
+
+    p{
+        color: var(--slightly-transparent-white-stat-headings);
+        line-height: 1.8;
+    }
+
+    & * + * {
+        margin-top: 30px;
+    }
+}
+
+div.infos {
+    margin-top: 80px;
+
+    & span{
+        display: inline-block;
+        margin-right: 88px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    & p {
+        display: inline-flex;
+        padding: 14px 74px 0px 0px;
+        font: 11px var(--font-family02);
+        color: var(--slightly-transparent-white-stat-headings);
+    }
+}
+
+img {
+    width: 540px;
+}
+
