@@ -8,16 +8,20 @@
     --very-dark-blue: hsl(233, 47%, 7%);
     --dark-desaturated-blue: hsl(244, 38%, 16%);
     --soft-violet: hsl(277, 64%, 61%);
-    --white: #ffffff;
+    --white: hsl(0, 0%, 100%);
     --slightly-transparent-white-main-paragraph: hsla(0, 0%, 100%, 0.75);
     --slightly-transparent-white-stat-headings: hsla(0, 0%, 100%, 0.6);
 
     --font-family01: "Inter", sans-serif;
-    --font-family02: "Lexend+Deca", sans-serif;
+    --font-family02: "Lexend Deca", sans-serif;
+    --h1: 700 36px var(--font-family01);
+    --base: 400 15px/1.6 var(--font-family01);
+    --paragraph-bold: 700 24px var(--font-family01);
+    --heading: 400 13px var(--font-family02);
 }
 
 body {
-    font: 15px var(--font-family01);
+    font: var(--base);
     color: var(--white);
     background-color: var(--very-dark-blue);
     display: flex;
